@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class TrapMove : MonoBehaviour
 {
+
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(0, 0, 1);
+        transform.Rotate(0, 0, Random.Range(1, 5 + 1));
     }
 }

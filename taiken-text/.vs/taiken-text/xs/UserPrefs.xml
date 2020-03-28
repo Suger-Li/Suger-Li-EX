@@ -1,9 +1,15 @@
 ﻿<Properties StartupConfiguration="{799C18C4-6C08-D17A-F482-1600AF52C8D4}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/TrapMove.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/playerMove.cs">
     <Files>
-      <File FileName="Assets/playerMove.cs" Line="25" Column="43" />
-      <File FileName="Assets/CameraMove.cs" Line="22" Column="70" />
-      <File FileName="Assets/TrapMove.cs" Line="16" Column="18" />
+      <File FileName="Assets/playerMove.cs" Line="46" Column="15" />
+      <File FileName="Assets/CameraMove.cs" Line="25" Column="64" />
+      <File FileName="Assets/TrapMove.cs" Line="20" Column="1" />
+      <File FileName="Assets/MoveXDir.cs" Line="8" Column="31" />
+      <File FileName="Assets/MoveXDir2.cs" Line="8" Column="31" />
+      <File FileName="Assets/TrapMove2.cs" Line="5" Column="23" />
+      <File FileName="Assets/EnemyGenerator.cs" Line="14" Column="37" />
+      <File FileName="Assets/Gamesystem.cs" Line="4" Column="35" />
+      <File FileName="Assets/TimerScript.cs" Line="20" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

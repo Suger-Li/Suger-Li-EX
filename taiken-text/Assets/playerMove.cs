@@ -8,7 +8,7 @@ public class playerMove : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -41,9 +41,11 @@ public class playerMove : MonoBehaviour
         {
             transform.position = new Vector3(0, 4, 0);
         }
-        if (hit.gameObject.tag == "goal")
+        if (hit.gameObject.tag == "Goal")
         {
-            transform.position = new Vector3(0, 0, 65);
+            //GetComponent<TimerScript>().enabled = false;
+            //transform.position = new Vector3(0, 4, 0);
+            Time.timeScale = 0;
         }
     }
 }

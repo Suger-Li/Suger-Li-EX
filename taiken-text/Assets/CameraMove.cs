@@ -6,6 +6,9 @@ public class CameraMove : MonoBehaviour
 {
     public GameObject player;
 
+    public int y = 0;
+    public int z = 0;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +22,6 @@ public class CameraMove : MonoBehaviour
         float posy = player.transform.position.y;
         float posz = player.transform.position.z;
 
-        transform.position = new Vector3(posx, posy + 10, posz - 10);
+        transform.position = new Vector3(posx, posy + y, posz + z);
     }
 }

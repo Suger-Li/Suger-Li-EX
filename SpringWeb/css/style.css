@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+#home{
+    background-color: #0000ff;
+    background-image: url(../images/background_home.jpg);
+    background-repeat:  no-repeat;
+    background-position: center top;
+    background-size: cover;
+    min-height: 100vh;
+}
+#about{
+    background-color: #ffffff;
+    background-image: url(../images/background_about.jpg);
+    background-repeat:  no-repeat;
+    background-position: center top;
+    background-size: cover;
+    min-height: 140vh;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.logo{
+    width: 120px;
+    margin-top: 30px;
+
+}
+.global-nav{
+    display: flex;
+    margin-top: 100px;
+}
+.global-nav li{
+    font-size: 20px;
+    margin-left: 42px;
+    list-style: none;
+}
+.global-nav a{
+    color: #ffffff;
+    text-decoration: none;
+}
+main{
+    text-align: center;
+    margin-top: 10%;
+}
+h1{
+    font-size: 42px;
+    color: #333333;
+}
+footer{
+    text-align: center;
+    margin: 100px auto;
+}
+#about footer{
+    background-color: #ffffff;
+    text-align: center;
+    margin: auto;
+    padding: 36px;
+}
+.wrapper{
+    background-color: #ffffff;
+    margin: 0px auto;
+    padding: 60px 0;
+}
+.profile-content{
+    display: flex;
+    justify-content: center;
+}
+.profile-text{
+    width:  540px;
+    text-align: left;
+}
+.profile-text span{
+    font-weight: bold;
+}
+.profile-image{
+    width: 360px;
+}
